@@ -388,7 +388,7 @@ function HomePage() {
 
         <div className="w-[1px] h-4 bg-gray-200 dark:bg-gray-700" />
 
-        {/* Theme Selector */>
+        {/* Theme Selector */}
         <div className="relative">
           <button
             onClick={() => {
