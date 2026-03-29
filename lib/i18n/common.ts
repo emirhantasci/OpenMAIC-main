@@ -37,6 +37,15 @@ export const commonZhCN = {
     exportSuccess: '导出成功',
     exportFailed: '导出失败',
   },
+  auth: {
+    loginTitle: '请输入访问密码',
+    password: '密码',
+    passwordPlaceholder: '请输入密码',
+    submit: '登录',
+    wrongPassword: '密码错误',
+    tooManyAttempts: '尝试次数过多，请在 {seconds} 秒后重试',
+    logout: '退出',
+  },
 } as const;
 
 export const commonTrTR = {
@@ -78,6 +87,15 @@ export const commonTrTR = {
     exportSuccess: 'Dışa aktarma başarılı',
     exportFailed: 'Dışa aktarma başarısız',
   },
+  auth: {
+    loginTitle: 'Erişim şifresini girin',
+    password: 'Şifre',
+    passwordPlaceholder: 'Şifrenizi girin',
+    submit: 'Giriş Yap',
+    wrongPassword: 'Şifre yanlış',
+    tooManyAttempts: 'Çok fazla deneme. {seconds} saniye sonra tekrar deneyin',
+    logout: 'Çıkış',
+  },
 } as const;
 
 export const commonEnUS = {
@@ -118,5 +136,14 @@ export const commonEnUS = {
     exporting: 'Exporting...',
     exportSuccess: 'Export successful',
     exportFailed: 'Export failed',
+  },
+  auth: {
+    loginTitle: 'Enter access password',
+    password: 'Password',
+    passwordPlaceholder: 'Enter your password',
+    submit: 'Sign In',
+    wrongPassword: 'Wrong password',
+    tooManyAttempts: 'Too many attempts. Try again in {seconds} seconds',
+    logout: 'Logout',
   },
 } as const;

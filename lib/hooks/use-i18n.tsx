@@ -28,9 +28,9 @@ export function I18nProvider({ children }: { children: ReactNode }) {
       }
       const detected = navigator.language?.startsWith('zh')
         ? 'zh-CN'
-        : navigator.language?.startsWith('tr')
-          ? 'tr-TR'
-          : 'en-US';
+        : navigator.language?.startsWith('en')
+          ? 'en-US'
+          : 'tr-TR';
       localStorage.setItem(LOCALE_STORAGE_KEY, detected);
       setLocaleState(detected);
     } catch {
